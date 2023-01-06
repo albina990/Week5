@@ -1,0 +1,17 @@
+footer {
+    background: #111112;
+}
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.footer_text {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+    color: #dedfe7;
+}

@@ -9,11 +9,11 @@ header {
 
 .container {
     max-width: 1180px;
-    margin:auto;
+    margin: auto;
 }
 
 .menu {
-    background: #F4F5F8;
+    background: #f4f5f8;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -21,35 +21,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-ul.display{
+ul.display {
     list-style: none;
-
 }
 .form {
-    background-color: #FFFFFF; 
-    background-image: url("/Site/assets/image/search_icon.png") no-repeat center left;
+    background-color: #ffffff;
 }
 
 #city {
     margin-right: 107px;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
     line-height: 16px;
     color: #36383f;
-
-    
 }
 
-.nav_item:not(:first-child) a {
+.nav_item a {
     text-decoration: none;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -57,22 +52,20 @@ ul.display{
     color: #6e7284;
 }
 
-.nav_item:first-child a {
+.nav_item a:hover {
     text-decoration: none;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
     color: #f04716;
-
 }
 
 .nav_item:not(:last-child) a {
     margin-right: 20px;
 }
-
 
 .nav_menu {
     display: flex;
@@ -83,7 +76,7 @@ ul.display{
     margin-left: 77px;
     margin-right: 20px;
 
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -93,7 +86,7 @@ ul.display{
 
 #call_order {
     text-decoration: none;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
@@ -106,47 +99,56 @@ ul.display{
     margin-right: 134px;
 }
 
-
 #search {
-    
     width: 518px;
     height: 46px;
-    
-    background: url("/Week_5/assets/image/search_icon.png") no-repeat 3%;
 
-    padding-left: 40px; 
-    
+    background: url("/Week5/assets/image/search_icon.png") no-repeat 3%;
+
+    padding-left: 40px;
+
     border: 1px solid #dedfe7;
     border-radius: 12px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #6e7284;
-
 }
 
 .header_button {
     border: none;
-    padding: 0px;
+    border-radius: 12px;
     margin-left: 5px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
+.header_button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px #444;
+}
+
 .products_list {
-    background-color: #0A4ECB;
+    background-color: #0a4ecb;
 }
-.products{
+.products {
     height: 52px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
+.products li:hover {
+    color: #fffa2f;
+    cursor: pointer;
+}
+
 .products li:first-child {
-    background-color: #04358F;
+    background-color: #04358f;
     padding-left: 56px;
     padding-right: 56px;
     padding-top: 1.5%;
