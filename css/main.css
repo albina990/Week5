@@ -8,7 +8,7 @@ main {
     width: 780px;
     height: 480px;
 
-    background-image: url("/Week5/assets/image/rectangle2.jpg");
+    background-image: url("../assets/image/rectangle2.jpg");
     border-radius: 12px;
 }
 
@@ -83,7 +83,7 @@ h1 {
     width: 32%;
     height: 230px;
     border-radius: 12px;
-    background-image: url("/Week5/assets/image/rectangle6.jpg");
+    background-image: url("../assets/image/rectangle6.jpg");
 }
 
 #production a,
@@ -103,7 +103,7 @@ h1 {
     width: 32%;
     height: 230px;
     border-radius: 12px;
-    background-image: url("/Week5/assets/image/rectangle35.jpg");
+    background-image: url("../assets/image/rectangle35.jpg");
 }
 
 .heading_offers {
@@ -189,7 +189,7 @@ h3 {
 .walls_item button {
     border: none;
     background-color: #ffffff;
-    background: url("/Week5/assets/image/section2/add-hover.svg") no-repeat
+    background: url("../assets/image/section2/add-hover.svg") no-repeat
         center;
     padding-bottom: 15px;
 }

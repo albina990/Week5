@@ -103,7 +103,7 @@ ul.display {
     width: 518px;
     height: 46px;
 
-    background: url("/Week5/assets/image/search_icon.png") no-repeat 3%;
+    background: url("../assets/image/search_icon.png") no-repeat 3%;
 
     padding-left: 40px;
 
